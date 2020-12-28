@@ -1,0 +1,37 @@
+#+title: Nix.el
+ An Emacs interface to Nix
+* Installation
+This has only been tested on Emacs 27.1, so use with care.
+** Dependencies
+Obviously, you would need Nix. You would also need the following Emacs
+packages, which can be downloaded from melpa.
+- transient
+- ivy (should be optional in the future, but hardcoded for now)
+** Copy
+Copy the =nix.el= file to your =~/.emacs=.
+** Include
+Either
+#+begin_src emacs-lisp
+(require 'nix)
+#+end_src
+or
+#+begin_src emacs-lisp
+(use-package nix)
+#+end_src
+* Usage
+Call ~M-x nix-legacy~ or ~M-x nix~ for the newer nix flakes. 
+* Goals
+** Internals
+- [ ] Custom for the completion framework
+- [ ] Use ~start-process~ instead
+** Features
+*** Profile
+*** Flake
+*** Shell
+*** Develop
+** Integration
+- [ ] Integration with Helm
+- [ ] Integration with Ido
+- [ ] Integration with Ivy
+- [ ] nix-mode path cleanup
+  

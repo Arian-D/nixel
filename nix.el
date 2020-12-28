@@ -65,6 +65,7 @@ ca-references feature until flakes become stable.")
 
 (transient-define-prefix nix ()
   "Nix flake interface"
+  :man-page "nix"
   ["profile"
    ("i" "info" nix-profile-info)
    ("I" "install" nix-profile-install)

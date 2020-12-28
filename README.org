@@ -24,8 +24,14 @@ Call ~M-x nix-legacy~ or ~M-x nix~ for the newer nix flakes.
 ** Internals
 - [ ] Custom for the completion framework
 - [ ] Use ~start-process~ instead
-** Features
+- [ ] Custom for default flake
+** Flake
 *** Profile
+- [ ] Install
+- [ ] Info
+- [ ] Remove
+- [ ] Upgrade single package
+- [ ] Upgrade all packages
 *** Flake
 *** Shell
 *** Develop
